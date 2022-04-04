@@ -1,14 +1,13 @@
 import React, { Fragment } from "react";
 import Header from "../components/Header";
-import Home from "../components/Home";
 
-function HomePage() {
+function CheckoutPage() {
   return (
     <Fragment>
       <Header />
-      <Home/>
+      <h1>Checkout</h1>
     </Fragment>
   );
 }
 
-export default HomePage;
+export default CheckoutPage;
